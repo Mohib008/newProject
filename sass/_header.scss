@@ -1,7 +1,8 @@
 .header {
-background-color: color(grey-dark-2);
-
-    &__01 {
-        display: 100%;
-    }
+background-color: color(secondary-light);
+display: grid;
+}
+.img__01 {
+    width: 50%;
+    
 }
