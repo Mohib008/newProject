@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all --parallel devserver watch:sass",
-    "devserver": "live-server --browser=firefox",
     "compile:sass": "node-sass  sass/main.scss css/style.css -w"
   },
   "author": "Mohib Arsala",
@@ -14,5 +12,14 @@
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0"
-  }
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohib008/newProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mohib008/newProject/issues"
+  },
+  "homepage": "https://github.com/Mohib008/newProject#readme"
 }

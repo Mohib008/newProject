@@ -1,7 +1,13 @@
 .header {
-background-color: color(grey-dark-2);
+background-color: color(secondary-light);
+display: grid;
 
-    &__01 {
-        display: 100%;
-    }
+&__01 {
+    width: 50%;
 }
+    }
+
+    .img__01 {
+        width: 50%;
+        
+    }
