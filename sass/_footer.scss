@@ -1,0 +1,13 @@
+.footer {
+    background-color: color(primary-light);
+
+    display: grid;
+    grid-template-columns: 1 / 3;
+    grid-template-rows: 5 / 3;
+}
+.textBox {
+    display: grid;
+    width: 35%;
+    height: 35rem;
+    border: 1rem solid black;
+}
