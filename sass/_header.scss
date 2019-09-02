@@ -1,8 +1,52 @@
 .header {
 background-color: color(secondary-light);
 display: grid;
+grid-template-columns: 1 / 3;
+grid-template-areas: 1 / 3;
 }
-.img__01 {
+
+.img {
     width: 50%;
-    
+
 }
+
+.p {
+    font-size: 2rem;
+    font-display: $font-display;
+    align-self: start;
+    justify-self: start;
+}
+    .input {
+        background-color: color(grey-dark-1);
+        color: color(grey-dark-3);
+        align-self: start;
+        justify-self: start;
+    }
+
+.btn {
+    grid-column: start;
+    background-color: color(color-gold-dark);
+    color: #fff;
+    border: none;
+    font-family: $font-display;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.8rem 3rem;
+    cursor: pointer;
+    transition: all .2s;
+    align-self: start;
+    justify-self: start;
+
+
+    &:hover {
+        background-color: color(color-gold);
+    }
+
+    .textBox {
+        width: 50%;
+        border: 1rem solid color(primary-dark);
+        font-size: 1.5rem;
+        font-display: $font-display;
+    }
+}
+
