@@ -1,0 +1,85 @@
+$colors: (
+    primary-light: #55c57a,
+    primary-dark: #28b485,
+    color-green: lightgreen,
+
+    color-gold: #c69963,
+    color-gold-dark: #B28451,
+
+    color-blue: #483D8B,
+    color-blue-dark: #4B0082,
+
+    secondary-light: #FFD700,
+    secondary-dark: #ff7730,
+
+    tertiary-light: #00BFFF,
+    tertiary-dark: #0000CD,
+
+    grey-light-1: #f7f7f7,
+    grey-light-2:#eee,
+
+    grey-dark: #777,
+    grey-dark-2:#999,
+    grey-dark-3:#333,
+    grey-gold: #6D5D4B,
+    grey-gold-dark:#54483A,
+
+    color-white: #fff,
+    color-black: #000,
+    color-red: #DC143C
+);
+
+@function color($colorName) {
+    @return map-get($map: $colors, $key: $colorName);
+}
+
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+/*$fonts: (
+ primary-1: 'Nunito', sans-serif,
+ display-1: 'Josefin Sans', sans-serif
+)*/
+
+
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/*html {
+    box-sizing: border-box;
+    font-size: 62.5% // 10px = 62.5% -> 1rem = 10px. 
+}*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+    font-family: $font-primary;
+    color: color(grey-gold-dark);
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/*.container {
+    display: grid;
+    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [coll-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+} */
+
+
+.container {
+    display: grid;
+    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+    grid-gap: .5rem;
+}
