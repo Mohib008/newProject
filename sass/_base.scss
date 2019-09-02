@@ -40,7 +40,11 @@ $font-display: 'Josefin Sans', sans-serif;
 /*$fonts: (
  primary-1: 'Nunito', sans-serif,
  display-1: 'Josefin Sans', sans-serif
-)*/
+);
+
+@function font($fontName) {
+    @return map-get($map: $fonts, $key: $fontName);
+}*/
 
 
 
