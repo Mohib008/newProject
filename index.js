@@ -64,3 +64,17 @@ $("document").ready(function() {
         $(this).toggleClass("highlight");
     };
 });
+
+$("document").ready(function() {
+    $("#fade-in").on("click", function() {
+        $("#textBox-2").fadeIn(3000, function() {
+            alert("I'm dane!");
+        });
+    });
+
+    $("#fade-out").on("click", function() {
+        $("#textBox-2").fadeOut(3000, function() {
+            alert("I am done!");
+        });
+    });
+});

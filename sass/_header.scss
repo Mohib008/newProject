@@ -1,6 +1,8 @@
 .header {
 background-color: color(secondary-light);
 display: grid;
+grid-template-columns: repeat(8, 1fr);
+grid-template-rows: repeat(4, 1fr);
 
 &__01 {
     width: 50%;
@@ -14,4 +16,12 @@ display: grid;
 
     .highlight {
         background-color: red;
+    }
+
+
+    .textBox-2 {
+        display: none;
+        //width: 30rem;
+        //height: 30rem;
+        //border: 1rem solid rgb(197, 179, 179);
     }
