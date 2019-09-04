@@ -29,7 +29,7 @@ $("document").ready(function() {
     $("img").css("border", "1rem solid black");
 });
 
-//Eventlistener 
+// Eventlistener
 
 $("document").ready(function() {
     $("#textBox").on("click", whenMouseIsClicked);
@@ -44,23 +44,37 @@ $("document").ready(function() {
     }
 });
 
-// show and hide event
+//Show and Hide event
 
 $("document").ready(function() {
     $("#show").on("click", function() {
         $("#textBox-1").show();
     });
-    
-    $("#hide").on("click", function() {
+
+    $("#hide").on("click", function(){
         $("#textBox-1").hide();
     });
 });
 
-// Hover Effect
+// hover effects
 
 $("document").ready(function() {
     $(".textCopy").hover(highlightCopy);
     function highlightCopy() {
         $(this).toggleClass("highlight");
     };
+  });
+
+$("document").ready(function() {
+    $("#fade-in").on("click", function() {
+        $("#textBox-2").fadeIn(3000, function() {
+            alert("I'm dane!");
+        });
+    });
+
+    $("#fade-out").on("click", function() {
+        $("#textBox-2").fadeOut(3000, function() {
+            alert("I am done!");
+        });
+    });
 });
