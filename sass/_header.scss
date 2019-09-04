@@ -1,11 +1,8 @@
 .header {
 background-color: color(secondary-light);
 display: grid;
-<<<<<<< HEAD
 grid-template-columns: repeat(8, 1fr);
 grid-template-rows: repeat(4, 1fr);
-=======
->>>>>>> a5e2ea3f07680500bc67442952960c1b8f83add0
 
 &__01 {
     width: 50%;
