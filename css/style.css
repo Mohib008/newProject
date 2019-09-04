@@ -32,22 +32,6 @@ body {
     grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
     grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [coll-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 } */
-<<<<<<< HEAD
-.container {
-  display: grid;
-  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
-  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-  grid-gap: .5rem; }
-
-.header {
-  background-color: #FFD700;
-  display: grid; }
-  .header__01 {
-    width: 50%; }
-
-.img__01 {
-  width: 50%; }
-=======
 .footer {
   background-color: #55c57a;
   display: grid;
@@ -62,42 +46,12 @@ body {
 
 .header {
   background-color: #FFD700;
-  display: grid;
-  grid-template-columns: 1 / 3;
-  grid-template-areas: 1 / 3; }
+  display: grid; }
+  .header__01 {
+    width: 50%; }
 
 .img {
   width: 50%; }
 
-.p {
-  font-size: 2rem;
-  font-display: "Josefin Sans", sans-serif;
-  align-self: start;
-  justify-self: start; }
-
-.input {
-  color: #333;
-  align-self: start;
-  justify-self: start; }
-
-.btn {
-  grid-column: start;
-  background-color: #B28451;
-  color: #fff;
-  border: none;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  padding: 1.8rem 3rem;
-  cursor: pointer;
-  transition: all .2s;
-  align-self: start;
-  justify-self: start; }
-  .btn:hover {
-    background-color: #c69963; }
-  .btn .textBox {
-    width: 50%;
-    border: 1rem solid #28b485;
-    font-size: 1.5rem;
-    font-display: "Josefin Sans", sans-serif; }
->>>>>>> f1106ce890822390f3568c6d1247258895fcfc6a
+.highlight {
+  background-color: red; }

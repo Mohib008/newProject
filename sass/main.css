@@ -59,61 +59,17 @@ body {
   background-color: #FFD700;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1 / 3;
-      grid-template-columns: 1 / 3;
-      grid-template-areas: 1 / 3;
+}
+
+.header__01 {
+  width: 50%;
 }
 
 .img {
   width: 50%;
 }
 
-.p {
-  font-size: 2rem;
-  font-display: "Josefin Sans", sans-serif;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
-  -ms-grid-column-align: start;
-      justify-self: start;
-}
-
-.input {
-  color: #333;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
-  -ms-grid-column-align: start;
-      justify-self: start;
-}
-
-.btn {
-  grid-column: start;
-  background-color: #B28451;
-  color: #fff;
-  border: none;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  padding: 1.8rem 3rem;
-  cursor: pointer;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
-  -ms-grid-column-align: start;
-      justify-self: start;
-}
-
-.btn:hover {
-  background-color: #c69963;
-}
-
-.btn .textBox {
-  width: 50%;
-  border: 1rem solid #28b485;
-  font-size: 1.5rem;
-  font-display: "Josefin Sans", sans-serif;
+.highlight {
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */

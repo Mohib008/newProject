@@ -29,6 +29,8 @@ $("document").ready(function() {
     $("img").css("border", "1rem solid black");
 });
 
+//Eventlistener 
+
 $("document").ready(function() {
     $("#textBox").on("click", whenMouseIsClicked);
     $("#textBox").on("mouseleave", whenMouseLeave);
@@ -42,3 +44,23 @@ $("document").ready(function() {
     }
 });
 
+// show and hide event
+
+$("document").ready(function() {
+    $("#show").on("click", function() {
+        $("#textBox-1").show();
+    });
+    
+    $("#hide").on("click", function() {
+        $("#textBox-1").hide();
+    });
+});
+
+// Hover Effect
+
+$("document").ready(function() {
+    $(".textCopy").hover(highlightCopy);
+    function highlightCopy() {
+        $(this).toggleClass("highlight");
+    };
+});
