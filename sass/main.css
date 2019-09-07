@@ -41,8 +41,8 @@ body {
   background-color: #FFD700;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
   -ms-grid-rows: (1fr)[4];
       grid-template-rows: repeat(4, 1fr);
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .footer {
-  background-color: #55c57a;
+  background-color: #28b485;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
