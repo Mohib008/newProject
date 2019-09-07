@@ -122,3 +122,23 @@ $("document").ready(function() {
     });
 });
 
+// Animation = Grow, Move, bigger and many.
+
+$("document").ready(function() {
+    $("#growMe").click(function() {
+        $("#textBox-5").animate({ width: "500px"},2000);
+    });
+
+    $("#move").click(function() {
+        $("#textBox-5").animate({marginLeft: "200px"},1000);
+    });
+
+    $("#bigger").click(function() {
+        $("#textBox-5").animate({fontSize: "40px"},3000);
+    });
+
+    $("#many").click(function() {
+        $("#textBox-5").animate({fontSize: "40px", marginLeft: "200px", width: "300px"},3000);
+    });
+});
+
