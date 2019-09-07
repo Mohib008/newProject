@@ -40,7 +40,7 @@ body {
   .header__01 {
     width: 50%; }
 
-.img__01 {
+.img {
   width: 50%; }
 
 .highlight {
@@ -49,8 +49,14 @@ body {
 .textBox-2 {
   display: none; }
 
+.textBox-1 {
+  display: grid;
+  width: 30rem;
+  height: 30rem;
+  border: 1rem solid black; }
+
 .footer {
-  background-color: #55c57a;
+  background-color: #28b485;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);

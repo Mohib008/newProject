@@ -63,7 +63,7 @@ $("document").ready(function() {
     function highlightCopy() {
         $(this).toggleClass("highlight");
     };
-});
+  });
 
 $("document").ready(function() {
     $("#fade-in").on("click", function() {
