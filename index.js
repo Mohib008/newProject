@@ -78,3 +78,47 @@ $("document").ready(function() {
         });
     });
 });
+
+//slide text function. 
+
+$("docment").ready(function() {
+    $("#slide-up").click(function() {
+        $("#textBox-3").slideUp("2000", "linear");
+    });
+
+    $("#slide-down").click(function() {
+        $("#textBox-3").slideDown("2500", "linear");
+    });
+
+    $("#toggleSlide").click(function() {
+        $("#textBox-3").slideToggle("2500", function() {
+            alert("Done");
+        });
+    });
+});
+
+
+$("docment").ready(function() {
+    $("#slide-up").click(function() {
+        $("#img-1").slideUp("2000", "linear");
+    });
+
+    $("#slide-down").click(function() {
+        $("#img-1").slideDown("2500", "linear");
+    });
+
+    $("#toggleSlide").click(function() {
+        $("#img-1").slideToggle("2500", function() {
+            alert("Done");
+        });
+    });
+});
+
+//toggling me function. 
+
+$("document").ready(function() {
+    $("#toggleMe").click(function() {
+        $("#textBox-4").toggle(4000, "swing");
+    });
+});
+

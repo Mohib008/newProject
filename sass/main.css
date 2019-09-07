@@ -63,11 +63,14 @@ body {
   display: none;
 }
 
-.textBox-1 {
+.textBox-1,
+.textBox-2,
+.textBox-3,
+.textBox-4 {
   display: -ms-grid;
   display: grid;
-  width: 30rem;
-  height: 30rem;
+  width: 18rem;
+  height: 18rem;
   border: 1rem solid black;
 }
 
