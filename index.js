@@ -142,3 +142,11 @@ $("document").ready(function() {
     });
 });
 
+$("document").ready(function() {
+   // $("#textBox-6").css("border", "1px blue solid");
+    //$("#textBox-7").css("border", "1px red solid");
+    //$("#textBox-8").css("border", "1px yellow solid");
+    $("#container p:even").css("background", "yellow").css("border", "1px black solid");
+    //$("div > p").css("border", "2px solid blue");
+});
+
