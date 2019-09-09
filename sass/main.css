@@ -107,6 +107,13 @@ body {
   position: relative;
 }
 
+.container {
+  display: -ms-grid;
+  display: grid;
+  grid-column: auto;
+  grid-row: start;
+}
+
 .gallery {
   background-color: #28b485;
   width: 100%;
